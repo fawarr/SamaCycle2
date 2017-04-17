@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inscription"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/pink"
+    tools:context="projetmobile.sn.Inscription"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="71dp"
+        android:id="@+id/dce"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text=""
+        android:background="@color/blanc"/>
+
+    <EditText
+
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_below="@+id/dce"
+        android:layout_alignStart="@+id/dce"
+        android:layout_marginTop="53dp"
+        android:id="@+id/dre"
+        android:background="@color/blanc"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_below="@+id/dre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="67dp"
+        android:id="@+id/pse"
+        android:background="@color/blanc"/>
+
+    <TextView
+        android:text="duree_cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:id="@+id/dr"
+        android:layout_alignBaseline="@+id/dce"
+        android:layout_alignBottom="@+id/dce"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:text="derniere_regle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dre"
+        android:layout_alignBottom="@+id/dre"
+        android:layout_alignStart="@+id/dr" />
+
+    <TextView
+        android:text="pseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pse"
+        android:layout_alignEnd="@+id/dr"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/pseudo"
+        />
+
+    <Button
+        android:text="Enregistrer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:background="@color/blanc"
+        android:id="@+id/Enregistrement"
+        android:onClick="Enregistrement"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_below="@+id/pse"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="51dp"
+        android:id="@+id/editText4" />
+
+</RelativeLayout>

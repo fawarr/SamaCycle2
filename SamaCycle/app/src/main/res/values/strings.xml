@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sama Cycle</string>
+    <string name="button_Sama_Calendrier">==>Sama Calendrier</string>
+    <string name="button_Sama_gyneco">==>Sama Gyneco</string>
+    <string name="button_Sama_forum">==>Sama Forum</string>
+    <string name="button_Sama_Conseil">==>Samay Conseils </string>
+    <string name="title_activity_gyneco">Map</string>
+    <string name="btn1">Lancer le service de géolocalisation</string>
+    <string name="service">Mon Premier Service</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapKey">@string/google_maps_key</string>
+
+</resources>

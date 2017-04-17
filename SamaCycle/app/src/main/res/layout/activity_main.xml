@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="projetmobile.sn.MainActivity"
+    android:background="@color/pink">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtenez tous les détails utils sur votre cycle menstruel !"
+        android:id="@+id/bienvenue"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:text="@string/button_Sama_Calendrier"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/bienvenue"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/calend"
+        android:background="@color/blanc"
+        android:onClick="PageCalendrier"/>
+
+    <Button
+        android:text="@string/button_Sama_Conseil"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:id="@+id/conseil"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="265dp"
+        android:background="@color/blanc"
+        android:onClick="PageConseil"/>
+
+    <Button
+        android:text="@string/button_Sama_forum"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:id="@+id/forum"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="375dp"
+        android:background="@color/blanc"
+        android:onClick="PageForum"/>
+
+    <Button
+        android:text="@string/button_Sama_gyneco"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:id="@+id/gyneco"
+        android:layout_marginTop="29dp"
+        android:background="@color/blanc"
+        android:onClick="PageGyneco"
+        android:layout_below="@+id/calend"
+        android:layout_alignStart="@+id/conseil" />
+
+
+</RelativeLayout>

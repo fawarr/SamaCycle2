@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_conseil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/pink"
+    tools:context="projetmobile.sn.Conseil">
+
+    <TextView
+        android:text="Les règles apparaissent à l’âge de la puberté, soit à 12 ou 13 ans et peuvent durer 30 ou 40 années après, jusqu’à la ménopause. Le cycle menstruel peut dire beaucoup de choses sur la santé de la femme.
+Discutez-en sur notre FORUM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/hautcon"
+         />
+
+
+    <Button
+        android:text="==>Astuces/Pratiques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/astuce"
+        android:onClick="PageAstuce"
+        android:layout_marginTop="97dp"
+        android:layout_below="@+id/hautcon"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blanc"
+        />
+
+    <Button
+        android:text="==> Divers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/divers"
+        android:onClick="PageDivers"
+        android:background="@color/blanc"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+    <Button
+        android:text="==> Santé/Hygiéne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sante"
+        android:onClick="PageSanteH"
+        android:background="@color/blanc"
+        android:layout_below="@+id/astuce"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp" />
+</RelativeLayout>
